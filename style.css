@@ -1,0 +1,40 @@
+.header {
+  background: coral;
+}
+
+.header-nav {
+  text-align: center;
+}
+.nav-link {
+  text-decoration: none;
+  background-color: indianred;
+  size: 56px;
+  color: khaki;
+}
+.main {
+  background: lightgoldenrodyellow;
+  background: #beb8eb;
+  padding: 0 16px;
+}
+.main-header {
+  background: #a2bce0;
+}
+.header-title {
+  color: #0b5563;
+}
+.article {
+  padding: 8px 0 0 0;
+}
+.article-paragraph {
+  padding: 8px 0 0 0;
+  margin: 0;
+}
+.scroll {
+  display: block;
+  text-decoration: none;
+  margin: 8px 0 0 0;
+}
+.footer {
+  display: block;
+  margin: 8px 0 0 0;
+}
