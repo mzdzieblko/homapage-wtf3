@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 100vw;
+  box-sizing: border-box;
+}
 .header {
   background: coral;
 }
@@ -16,6 +24,8 @@
   background: lightgoldenrodyellow;
   background: #beb8eb;
   padding: 0 16px;
+  margin: 0 auto;
+  width: min-content;
 }
 .main__header {
   background: #a2bce0;
