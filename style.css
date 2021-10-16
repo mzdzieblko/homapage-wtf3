@@ -2,11 +2,11 @@
   background: coral;
 }
 
-.header-nav {
+.header__nav {
   text-align: center;
   background: #fefefe;
 }
-.nav-link {
+.header__link {
   text-decoration: none;
   background-color: indianred;
   size: 56px;
@@ -17,16 +17,16 @@
   background: #beb8eb;
   padding: 0 16px;
 }
-.main-header {
+.main__header {
   background: #a2bce0;
 }
-.header-title {
+.main__title {
   color: #0b5563;
 }
 .article {
   padding: 8px 0 0 0;
 }
-.article-paragraph {
+.article__paragraph {
   padding: 8px 0 0 0;
   margin: 0;
 }
