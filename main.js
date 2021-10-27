@@ -52,3 +52,36 @@ const deathStar = {
 }
 
 console.log(deathStar.commmander);
+
+const humanOne = {
+    name: 'Maciek',
+    age: 32
+}
+
+const humanTwo = {
+    name: 'Stefan',
+    age: 38
+}
+console.log(humanTwo.age); //dwa obiekty wskazują na różne wartości age
+
+humanTwo.age = 'Maciek'; // wartość age może być innego tupu niż zadeklatowana przy utworzeniu💥 
+console.log(humanTwo.age);
+
+humanTwo.age = humanOne.age; //wskazuje na wartość age z innego obiektu
+console.log(humanOne);
+console.log(humanTwo);
+
+humanTwo.age = 35; //losowa wartość age dla odrónienia
+console.log(humanOne);
+console.log(humanTwo);
+
+const humanTwoNext = humanOne; //tworze nowy obiekt wskazujac na inny obiekt
+console.log(humanOne);
+console.log(humanTwo);
+console.log(humanTwoNext);
+
+humanTwoNext.age = 38; //zmiana wartosci age w onowym obiekcie zmienia wartosc age w obiekcie z ktorego "powstal"
+console.log(humanOne);
+console.log(humanTwo);
+console.log(humanTwoNext);
+
