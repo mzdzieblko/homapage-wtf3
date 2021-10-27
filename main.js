@@ -27,3 +27,10 @@ greet(34, 'Janek');
 greet('Dawid', 18);
 /*wartości argumentów przekazywane są do "nazw" argumentów funkcji i później wykożystywane w ciele funkcji. Kolejność wartości argumentów mają znaczenie.
 Wpisanie greet('Dawid', 18) spowoduje podstawienie 18 do zmiennej irstName  a Dawid do zmiennej age*/
+
+function createContent(querySelectorContent, content){
+    const element = document.querySelector(querySelectorContent);
+    element.innerHTML = content;
+}
+
+createContent('.div--js2','Dodaje treść funkcją JS xD dzięki Korsan <3');
