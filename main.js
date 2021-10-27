@@ -34,3 +34,21 @@ function createContent(querySelectorContent, content){
 }
 
 createContent('.div--js2','Dodaje treść funkcją JS xD dzięki Korsan <3');
+
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+        console.log(`${target} destroyed 💥`)
+    },
+    isOperating: true,
+    name: 'Death Star',
+    levels: 357,
+    population: 10000,
+    isLightOn: true,
+    commmander: {
+        name: 'Darth Vader',
+        age: 44
+    }
+}
+
+console.log(deathStar.commmander);
