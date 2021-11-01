@@ -3,6 +3,12 @@ const age = 32;
 
 console.log(`Nazywam się ${firstName} mam ${age} lat ;D `);
 
+function hello(age, name){
+    console.log(`Siema, nazywam się ${name} i mam ${age} lat`)
+}
+
+hello(40, 'Edward');
+
 const box = document.querySelector('.div--js');
 
 box.innerHTML = 'Treść podstawiona przez JS';

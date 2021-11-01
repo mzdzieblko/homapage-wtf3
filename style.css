@@ -25,11 +25,13 @@ html {
   color: khaki;
 }
 .main {
-  background: lightgoldenrodyellow;
-  background: #beb8eb;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
   padding: 0 16px;
-  margin: 0 auto;
-  width: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 .main__header {
   background: #a2bce0;
