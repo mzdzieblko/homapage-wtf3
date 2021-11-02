@@ -12,10 +12,12 @@ html {
 }
 .header {
   background: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__nav {
-  text-align: center;
   background: #fefefe;
 }
 .header__link {
