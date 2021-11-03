@@ -91,3 +91,6 @@ console.log(humanOne);
 console.log(humanTwo);
 console.log(humanTwoNext);
 
+if (!('JavaScript' == 'Java')){
+    console.log(`ten kod się wykona`)
+}
