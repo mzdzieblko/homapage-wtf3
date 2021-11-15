@@ -94,3 +94,11 @@ console.log(humanTwoNext);
 if (!('JavaScript' == 'Java')){
     console.log(`ten kod się wykona`)
 }
+
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+    const nav = document.querySelector('.nav--js');
+    nav.classList.toggle('nav--open'); 
+})
